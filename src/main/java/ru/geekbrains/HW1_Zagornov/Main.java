@@ -28,18 +28,15 @@ public class Main {
         System.out.println("Задание №7:");
         sayHelloName("Андрей");
     }
-
     //3
     public static float calculate(float a, float b, float c, float d) {
         return a * (b + (c / d));
     }
-
     //4
     public static boolean task10To20(int x1, int x2) {
         int sum = x1 + x2;
         return sum > 9 && sum < 21;
     }
-
     //5
     public static int posOrNegNum(int x) {
         if (x >= 0) {
@@ -49,7 +46,6 @@ public class Main {
         }
         return x;
     }
-
     //6
     public static boolean posOrNegNum2(int num2) {
         if (-5 <= 0) {
